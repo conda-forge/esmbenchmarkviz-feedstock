@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 package:
   name: esmbenchmarkviz
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/ESMBenchmarkViz/archive/v{{ version }}.tar.gz
-  sha256: bc0a76917dc8eb434ad6ed89cd4688d5e34e97652e5399a0f27421dd5d164530
+  sha256: c5c26fe0b73c21a2f26024599f074acc126b0afc8d52b7ba122fa3d008277c7b
 
 build:
   noarch: python
